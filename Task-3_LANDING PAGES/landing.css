@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgb(0,0,0,0.60),rgba(0,0,0, 0.6)), url("./hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img{
+    max-width: 10%;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 50px;
+}
+nav ul{
+    float: right;
+    line-height: 50px;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+    margin-top: -0.5%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: orangered;
+    transition: all ease 0.3s;
+}
+nav ul li .active{
+    background-color: red;
+}
+.content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.content h1{
+    font-size: 36px;
+    color: white;
+    letter-spacing: 1.5px;
+    margin: bottom 25px; ;
+}
+.content p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.content .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: orange;
+} 
+.content .btn:hover{
+    background-color:greenyellow;
+    transition: 0.5s ease;
+}
